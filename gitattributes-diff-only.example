@@ -1,0 +1,15 @@
+# Diff-only additions. Merge into existing .gitattributes; do not overwrite it.
+# No text/eol/encoding conversion is enabled by these two lines.
+*.bsl diff=bsl
+*.os  diff=bsl
+
+# Optional for opaque 1C containers stored in Git. The 'binary' macro disables
+# text normalization, textual diff and textual merge. It does not enable LFS.
+# *.cf  binary
+# *.cfu binary
+# *.cfe binary
+# *.dt  binary
+# *.epf binary
+# *.erf binary
+# *.1cd binary
+# *.mxl binary
